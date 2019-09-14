@@ -82,14 +82,3 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
-
-navigation:
-  - title: About
-    url: /about
-  - title: Category
-    url: /category
-  - title: Tags
-    url: /tags
-  - title: Archives
-    url: /archives
-  
