@@ -32,9 +32,9 @@ exclude:
   - vendor
 
 # Social media
-twitter_username:
+twitter_username: yunhwankim2
 twitter_image:
-facebook_app_id:
+facebook_app_id: yunhwankim2
 facebook_image:
 google_analytics:
 comments: false
