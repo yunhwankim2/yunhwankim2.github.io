@@ -41,11 +41,6 @@ layout: default
         </div>    
     </div>
   
-    {% if true or site.disqus.comments == true and jekyll.environment == "production" %}
-      <div class="post-comments" itemprop="comment">
-        {% include custom_comments_provider.html %}
-      </div>
-    {% endif %}    
   </article>
 
 
