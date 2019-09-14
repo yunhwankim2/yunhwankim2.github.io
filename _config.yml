@@ -20,7 +20,7 @@ description: 프로그래밍, 수학, 잡다한 이야기들.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yunhwankim2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 lang: ko
-timezone: UTC+9
+timezone: UTC
 exclude:
   - Gemfile
   - Gemfile.lock
