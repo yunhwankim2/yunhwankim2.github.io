@@ -1,5 +1,5 @@
 ---
-layout: category_archives
+layout: category
 title: "Category"
 permalink: /category/
 ---
