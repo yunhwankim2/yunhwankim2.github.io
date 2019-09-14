@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.author }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: 변두리 연구자의 공부 로그
 author: Yunhwan Kim
 description: 프로그래밍, 수학, 잡다한 이야기들.
@@ -34,13 +35,22 @@ exclude:
 # Social media
 twitter_username: yunhwankim2
 twitter_image:
+facebook_username: yunhwankim2
 facebook_app_id: yunhwankim2
 facebook_image:
+github_username: yunhwankim2
+instagram_username: yunhwankim2
 google_analytics:
-comments: false
+#comments: false
+
+disqus:
+  comments: true
+  shorname: yunhwankim2
+
 
 # Plugins
 plugins:
+  - jekyll-feed
   - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
@@ -72,3 +82,14 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+
+navigation:
+  - title: About
+    url: /about
+  - title: Category
+    url: /category
+  - title: Tags
+    url: /tags
+  - title: Archives
+    url: /archives
+  
