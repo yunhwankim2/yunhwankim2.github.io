@@ -29,8 +29,10 @@ layout: default
     {% include tag_links.html tags=page.tags %}
   {% endif %}
 
-  <br>
-  
-  {% include disqus_comments.html %}
-  
+  {% if site.disqus.comments == true %}
+  <div class="post-comments" itemprop="comment">
+    {% include disqus_comments.html %}
+  </div>
+  {% endif %}
+
 </article>

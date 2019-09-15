@@ -43,7 +43,7 @@ google_analytics:
 
 disqus:
   comments: true
-  shorname: yunhwankim2
+  shortname: yunhwankim2
 
 
 # Plugins
