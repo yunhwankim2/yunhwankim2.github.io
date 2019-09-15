@@ -25,7 +25,9 @@ layout: default
     {{ content }}
   </div>
   
-  {% include tag_links.html %}
+  {% if page.tags != empty %}
+    {% include tag_links.html tags=page.tags %}
+  {% endif %}
 
   {% include disqus_comments.html %}
   
