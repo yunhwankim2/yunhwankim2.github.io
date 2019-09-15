@@ -10,8 +10,8 @@ tags:
 이미지 넣기를 테스트하기 위해 만든 포스트입니다.
 
 <center>
-<img src="/assets/images/sh1.jpg" height="300">
-그림1. 처리전
+<img src="/assets/images/sh1.jpg" height="300"><br>
+그림1. 처리전<br>
 </center>
 
 
