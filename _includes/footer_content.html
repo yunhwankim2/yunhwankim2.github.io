@@ -1,7 +1,12 @@
 <div class="contact-list">
-    {% if site.email %}
-        <ul><a href="mailto:{{ site.email }}">{{ site.email }}</a></ul>
+    {% if site.github_username %}
+    {% include icon-github.html username=site.github_username %}
     {% endif %}
+
+    {% if site.facebook_username %}
+    {% include icon-facebook.html username=site.facebook_username %}
+    {% endif %}
+    
 </div>
 
 <div class="description">
