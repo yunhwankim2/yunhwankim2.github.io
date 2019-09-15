@@ -1,3 +1,8 @@
+<div class="description">
+    <p>{{ site.description | escape }}</p>
+</div>
+
+
 <div class="contact-list">
     {% if site.github_username %}
     {% include icon-github.html username=site.github_username %}
@@ -6,12 +11,8 @@
     {% if site.facebook_username %}
     {% include icon-facebook.html username=site.facebook_username %}
     {% endif %}
-    
 </div>
 
-<div class="description">
-    <p>{{ site.description | escape }}</p>
-</div>
 
 {% assign feed_path = "/feed.xml" %}
 {% if site.feed and site.feed.path %}
