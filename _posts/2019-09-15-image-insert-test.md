@@ -17,7 +17,7 @@ tags:
 
 위의 그림은 처리하기 전의 그림입니다.
 
-![Image Alt 텍스트](/assets/images/sh2.jpg){: height="300"}<br>
+![Image Alt 텍스트](/assets/images/sh2.jpg "이미지 제목이래요"){: height="300"}<br>
 *그림2. 처리후*
 
 위의 그림은 처리한 후의 그림입니다.
