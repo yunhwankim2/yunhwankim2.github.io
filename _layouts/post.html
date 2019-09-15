@@ -26,7 +26,9 @@ layout: default
   </div>
   
   {% if page.tags != empty %}
+  <div class="post-tags" itemprop="tags">
     {% include tag_links.html tags=page.tags %}
+  </div>
   {% endif %}
 
   {% if site.disqus.comments == true %}
