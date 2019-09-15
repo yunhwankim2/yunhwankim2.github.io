@@ -9,7 +9,7 @@ tags:
 
 이미지 넣기를 테스트하기 위해 만든 포스트입니다.
 
-![Image Alt 텍스트](/assets/images/sh1.jpg){: height="300"}<br>
+<center><img src="/assets/images/sh1.jpg" height="300"></center>
 
 
 *그림1. 처리전*
