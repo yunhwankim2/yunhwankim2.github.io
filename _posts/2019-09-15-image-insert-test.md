@@ -9,10 +9,10 @@ tags:
 
 이미지 넣기를 테스트하기 위해 만든 포스트입니다.
 
-<center><img src="/assets/images/sh1.jpg" height="300"></center>
-
-
-*그림1. 처리전*
+<center>
+<img src="/assets/images/sh1.jpg" height="300">
+그림1. 처리전
+</center>
 
 
 위의 그림은 처리하기 전의 그림입니다.
