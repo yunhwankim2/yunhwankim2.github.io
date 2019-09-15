@@ -1,6 +1,13 @@
+<div class-"contact-list">
+    {% if site.email %}
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    {% endif %}
+</div>
+
+
 <div class="footer-col footer-col-3">
     <p>{{ site.description | escape }}</p>
-  </div>
+</div>
 
 {% assign feed_path = "/feed.xml" %}
 {% if site.feed and site.feed.path %}
