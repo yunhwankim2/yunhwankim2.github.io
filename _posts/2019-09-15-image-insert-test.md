@@ -9,12 +9,10 @@ tags:
 
 이미지 넣기를 테스트하기 위해 만든 포스트입니다.
 
-![Image Alt 텍스트](/assets/images/sh1.jpg){: height="300"}<br>
-*그림1. 처리전*
+{% include image.html url='{{"/assets/image/sh1.jpg"| relative_url}}' description='그림 1. 처리전' alt='Image Alt 텍스트' %}
 
 위의 그림은 처리하기 전의 그림입니다.
 
-![Image Alt 텍스트](/assets/images/sh2.jpg){: height="300"}<br>
-*그림2. 처리후*
+{% include image.html url='{{"/assets/image/sh2.jpg"| relative_url}}' description='그림 2. 처리후' alt='Image Alt 텍스트' %}
 
 위의 그림은 처리한 후의 그림입니다.
