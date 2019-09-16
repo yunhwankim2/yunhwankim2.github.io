@@ -12,14 +12,14 @@ tags:
 그래도 도서관에 신청한 책이 왔다고 해서 일단 가서 수령해왔다. 
 
 <center>
-<img src="/assets/images/IMG_4762.jpg" height="500"><br>
+<img src="/assets/images/IMG_4762.jpg" height="600"><br>
 </center>
 
 <br>
 
 <center>
-<img src="/assets/images/IMG_6115.jpg" height="500"><br>
+<img src="/assets/images/IMG_6115.jpg" height="600"><br>
 </center>
 
-<모두의 데이터 분석 with 파이썬>은 나중에 강의 같은 곳에서 쓸 예제나 연습 문제 등을 참고하기 위해서 신청했고, <딥러닝에 목마른 사람들을 위한 PyTorch> 는 PyTorch 입문용으로 볼만한 책인지 살펴보려고 구입했다. 이 책들도 있고, 기존에 공부해오던 것도 있고... 열심히 공부해서 블로그에 활발히 업로드할 수 있기를.
+\<모두의 데이터 분석 with 파이썬\>은 나중에 강의 같은 곳에서 쓸 예제나 연습 문제 등을 참고하기 위해서 신청했고, \<딥러닝에 목마른 사람들을 위한 PyTorch\> 는 PyTorch 입문용으로 볼만한 책인지 살펴보려고 구입했다. 이 책들도 있고, 기존에 공부해오던 것도 있고... 열심히 공부해서 블로그에 활발히 업로드할 수 있기를.
 
