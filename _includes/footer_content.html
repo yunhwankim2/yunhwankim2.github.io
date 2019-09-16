@@ -2,6 +2,11 @@
     <p>{{ site.description | escape }}</p>
 </div>
 
+{% assign feed_path = "/feed.xml" %}
+{% if site.feed and site.feed.path %}
+  {% assign feed_path = site.feed.path %}
+{% endif %}
+&copy; {{ site.author }} - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="{{ feed_path | absolute_url }}">RSS</a>
 
 <div class="contact-list">
     {% if site.email %}
@@ -24,10 +29,3 @@
     {% include icon-twitter.html username=site.twitter_username %}
     {% endif %}
 </div>
-
-
-{% assign feed_path = "/feed.xml" %}
-{% if site.feed and site.feed.path %}
-  {% assign feed_path = site.feed.path %}
-{% endif %}
-&copy; {{ site.author }} - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="{{ feed_path | absolute_url }}">RSS</a>
