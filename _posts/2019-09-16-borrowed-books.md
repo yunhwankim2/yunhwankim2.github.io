@@ -12,8 +12,8 @@ tags:
 그래도 도서관에 신청한 책이 왔다고 해서 일단 가서 수령해왔다. 
 
 <center>
-<img src="/assets/images/IMG_4762.jpg" height="600">
-<img src="/assets/images/IMG_6115.jpg" height="600">
+<img src="/assets/images/IMG_4762.jpg" height="500">
+<img src="/assets/images/IMG_6115.jpg" height="500">
 </center>
 
 <br>
