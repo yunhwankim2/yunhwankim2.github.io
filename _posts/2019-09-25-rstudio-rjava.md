@@ -17,13 +17,13 @@ RStudio 로 들어가서 rJava 라이브러리를 설치한 다음,
 라고 하면, 뭐가 안된다고 길게 오류 메시지가 나온다. 이 오류 메시지로부터 찾아내야 하는 정보들이 있다. 
 
 1. 첫번째 정보는 libjvm.dylib 이라는 파일을 어디서 찾으려고 시도했는가 하는 것이다. 오류 메시지에 '어디어디서 libjvm.dylib 을 찾으려 했지만 없다'라는 식의 메시지가 있을 것이다. 내 경우에는 
-/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/server/libjvm.dylib
+`/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/server/libjvm.dylib`
 위의 경로에서 찾으려고 했다고 나온다. 아마 중간의 jdk-11.0.1.jdk 의 번호는 jdk 버전에 따라 다를 것이다. 
 2. 두번째 정보는, 본인의 /Library/Java/JavaVirtualMachines 에서 위 1번의 libjvm.dylib 파일이 실제로 있는 경로를 찾아내는 것이다. 맥의 파인더를 통해서 저 파일이 있는 곳의 경로를 찾으면 된다. 내 경우에는
-/Library/Java/JavaVirtualMachines/jdk-11.0.4.jdk/Contents/Home/lib/server/libjvm.dylib 
+`/Library/Java/JavaVirtualMachines/jdk-11.0.4.jdk/Contents/Home/lib/server/libjvm.dylib`
 이 경로에 libjvm.dylib 파일이 있었다.
 3. 세번째 정보는, rJava.so 라는 파일로부터 이런 명령이 나온 것인데, 그 rJava.so 의 경로를 찾아내는 것이다. 이것은 오류 메시지를 잘 보면 있다. 내 경우에는 
-/Library/Frameworks/R.framework/Versions/3.6/Resources/library/rJava/libs/rJava.so
+`/Library/Frameworks/R.framework/Versions/3.6/Resources/library/rJava/libs/rJava.so`
 이라고 오류 메시지에 나온다. 아마 크게 다르지 않을 것이다.
 
 실제 문제 해결은 여기부터이다. 일단 터미널을 열어서 
