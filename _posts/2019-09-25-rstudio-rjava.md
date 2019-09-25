@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RStudio 에서 rJava 설치하기"
+title: "RStudio 에서 rJava 설치시 오류 해결(macOS)"
 date: 2019-09-25 22:46
 categories: 프로그래밍
 tags: 
