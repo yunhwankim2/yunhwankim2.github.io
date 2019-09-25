@@ -49,4 +49,4 @@ $ install_name_tool -change \
 이건 지금 R 프로그램이 libjvm.dylib 파일을 찾으려고 시도하고 있는 경로가 1)인데, 그걸 2)로 바꾸라는 의미인 것 같다.
 
 아래 링크를 참고했다.  
-[https://github.com/s-u/rJava/issues/151#issuecomment-395070694]
+<https://github.com/s-u/rJava/issues/151#issuecomment-395070694>
