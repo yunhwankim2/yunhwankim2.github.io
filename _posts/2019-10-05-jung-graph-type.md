@@ -31,7 +31,7 @@ JUNG (Java Universal Network/Graph Framework)는 이름 그대로 네트워크�
 Hypergraph <- Graph <- DirectedGraph <- Forest <- Tree 이렇게 한 줄기가 있고,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graph <- UndirectedGraph   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graph <- GraphDecorator <- Observable Graph  
-Graph <- KPartiteGraph  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graph <- KPartiteGraph  
 Multigraph  
 
 이런 구조인 것 같다.  
