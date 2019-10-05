@@ -36,4 +36,3 @@ Multigraph
 
 이런 구조인 것 같다.  
 추가로 jung-api 프로젝트에는 jung.graph 패키지 외에도, jung.graph.event, jung.graph.util 패키지도 있다. 이후에는 이걸 공부해야 할 듯 하다. 
-
