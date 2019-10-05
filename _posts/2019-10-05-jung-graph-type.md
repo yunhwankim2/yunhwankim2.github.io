@@ -14,7 +14,7 @@ JUNG (Java Universal Network/Graph Framework)는 이름 그대로 네트워크�
 
 일단은 네트워크를 표현하는 기본적인 자료형이 있어야 할 것이다. 이 자료형들은 jung-api 프로젝트에 구현되어 있다.
 
-1. 기본적으로 Graph 인터페이스가 있는데, 이것은 Hypergraph 인터페이스를 상속받은 것이다. 이 Hypergraph 안에 웬만한 메쏘드들은 대부분 구현이 되어 있는 듯 하다.
+1\. 기본적으로 Graph 인터페이스가 있는데, 이것은 Hypergraph 인터페이스를 상속받은 것이다. 이 Hypergraph 안에 웬만한 메쏘드들은 대부분 구현이 되어 있는 듯 하다.
 
 1-1. 이 Graph 인터페이스를 상속받은 것이 DirectedGraph 와 UndirectedGraph 인터페이스 이다. DirectedGraph 와 UndirectedGraph 자체에는 아무 메쏘드도 선언되어 있지 않다. 나아가 DirectedGraph 를 상속한 Forest 인터페이스가 있는데, 이건 `collection of rooted directed acyclic graphs` 라고 설명되어 있다. 또 이 Forest 로부터 상속받은 Tree 인터페이스가 있다. Tree 인터페이스에는 getDepth(), getHeight(), getRoot() 세 개의 메쏘드만 있다. Forest 인터페이스도 몇 개의 메쏘드가 있는데, 이건 아마도 설명에 나온 acyclic graph 를 처리하기 위한 메쏘드인 것 같다.
 
@@ -24,7 +24,7 @@ JUNG (Java Universal Network/Graph Framework)는 이름 그대로 네트워크�
 
 1-3. Graph 인터페이스를 상속받은 또 다른 인터페이스로 KPartiteGraph 가 있다. 설명이 `An interface for graphs whose vertices are each members of one of 2 or more disjoint sets (partitions), and whose edges connect only vertices in distinct partitions.` 라고 되어 있다. Bipartite graph 등을 구현하는 것으로 보인다. 
 
-2. 그리고 이들과는 별도로 Multigraph 인터페이스가 있다. 이것은 이름 그대로 parallel edge 가 허용되는 그래프 유형이고, Graph 인터페이스를 상속하거나 구현하지 않고 별도로 마련되어 있다. 
+2\. 그리고 이들과는 별도로 Multigraph 인터페이스가 있다. 이것은 이름 그대로 parallel edge 가 허용되는 그래프 유형이고, Graph 인터페이스를 상속하거나 구현하지 않고 별도로 마련되어 있다. 
 
 정리해보자면, 
 
