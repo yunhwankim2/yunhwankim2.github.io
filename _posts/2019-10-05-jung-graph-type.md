@@ -10,9 +10,6 @@ tags:
   - network
 ---
 
-<<<<<<< HEAD
-테스트
-=======
 JUNG (Java Universal Network/Graph Framework)는 이름 그대로 네트워크와 그래프와 관련된 작업을 수행하기 위한 프레임워크이다. Java 에서 네트워크/그래프 관련된 더 좋은 라이브러리나 프레임워크가 있는지 모르겠지만, 일단 검색해보니 JUNG 이 대표적인 프레임워크 중 하나인 것 같아서, 또 이게 Repast Simphony 에서도 사용되는 것 같아서, 이걸 먼저 공부해보기로 했다.
 
 일단은 네트워크를 표현하는 기본적인 자료형이 있어야 할 것이다. 이 자료형들은 jung-api 프로젝트에 구현되어 있다.
@@ -39,4 +36,3 @@ Multigraph
 
 이런 구조인 것 같다.  
 추가로 jung-api 프로젝트에는 jung.graph 패키지 외에도, jung.graph.event, jung.graph.util 패키지도 있다. 이후에는 이걸 공부해야 할 듯 하다. 
->>>>>>> 479cb8d265e5436a48498c56b551941e79babfb6
