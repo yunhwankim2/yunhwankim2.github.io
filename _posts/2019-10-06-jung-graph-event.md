@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[JUNG] 2. 그래프 이벤트"
+title: "[JUNG] 1-2. 그래프 이벤트"
 date: 2019-10-06 16:35
 categories: 프로그래밍
 tags: 
