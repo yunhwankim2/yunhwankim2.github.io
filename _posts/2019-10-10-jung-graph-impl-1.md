@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[JUNG] 2-1. Add Node & Add Edge"
-date: 2019-10-07 17:41
+date: 2019-10-10 15:40
 categories: 프로그래밍
 tags: 
   - java
@@ -61,6 +61,9 @@ public class AddNodeDemo extends javax.swing.JApplet {
 
 1\. `DirectedSparseMultigraph` 클래스
 
+설명에는 An implementation of DirectedGraph, suitable for sparse graphs,that permits parallel edges 라고 되어 있다. 이름 그대로, directed 링크를 갖고, 네트워크가 sparse 하며, 노드간 여러 개의 링크를 가질 수 있는 네트워크인 것 같다. 
 
 2\. `synchronizedDirectedGraph()` 함수
+
+함수가 선언되어 있기는 하지만, 그냥 DirectedGraph 를 입력으로 받아서 SynchronizedDirectedGraph 를 반환하는 내용만 있다. 아마도 그래프 사이의 동기화와 관련된 별도의 작업이 있는 모양이다. 추후에 공부해야 할 듯.
 
