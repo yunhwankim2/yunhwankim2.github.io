@@ -1,15 +1,13 @@
 ---
 layout: post
-title: "[JUNG] 3-2. 튜토리얼(2) 노드와 링크의 추가"
-date: 2019-10-11 00:11
+title: "[JUNG] 3-3. 튜토리얼(3) custom 링크"
+date: 2019-10-17 21:46
 categories: 프로그래밍
 tags: 
   - java
   - jung
   - graph
   - network
-  - node
-  - vertex
   - link
   - edge
 ---
