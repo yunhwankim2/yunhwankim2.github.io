@@ -31,9 +31,11 @@ g.addEdge("Edge-B", 2, 3);
 
 ```java
 Graph<Integer, String> g2 = new SparseMultigraph<Integer, String>();
+
 g2.addVertex((Integer)1);
 g2.addVertex((Integer)2);
 g2.addVertex((Integer)3);
+
 g2.addEdge("Edge-A", 1,3);
 g2.addEdge("Edge-B", 2,3, EdgeType.DIRECTED);
 g2.addEdge("Edge-C", 3, 2, EdgeType.DIRECTED);
